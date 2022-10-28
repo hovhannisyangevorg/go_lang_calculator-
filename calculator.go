@@ -12,4 +12,9 @@ import (
 	
    fmt.Scanln(&number1, &operator, &number2)
 
+   switch operator{
+	   case "+":
+		   fmt.Printf("%f %s %f = %f ", number1, operator, number2, number1 + number2)
+
+   }
 }
