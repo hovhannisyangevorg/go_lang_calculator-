@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	//"strconv"
 )
 
  func main(){
@@ -25,6 +24,7 @@ import (
 		   }else{
 			   fmt.Printf("%f %s %f = %f ", number1, operator, number2, number1 / number2)
 		   }
-
+	   default:
+		   fmt.Println("Error this is not number")
    }
 }
