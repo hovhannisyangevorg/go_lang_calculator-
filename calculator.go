@@ -19,6 +19,12 @@ import (
 		   fmt.Printf("%f %s %f = %f ", number1, operator, number2, number1 - number2)
 	   case "*":
 		   fmt.Printf("%f %s %f = %f ", number1, operator, number2, number1 * number2)
+	   case "/":
+		   if (number2 == 0.0) {
+		   fmt.Println("Divide by Zero situation")	
+		   }else{
+			   fmt.Printf("%f %s %f = %f ", number1, operator, number2, number1 / number2)
+		   }
 
    }
 }
