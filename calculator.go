@@ -15,6 +15,10 @@ import (
    switch operator{
 	   case "+":
 		   fmt.Printf("%f %s %f = %f ", number1, operator, number2, number1 + number2)
+	   case "-":
+		   fmt.Printf("%f %s %f = %f ", number1, operator, number2, number1 - number2)
+	   case "*":
+		   fmt.Printf("%f %s %f = %f ", number1, operator, number2, number1 * number2)
 
    }
 }
